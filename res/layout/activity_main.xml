@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="弹性ScrollView" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下拉ListView" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左右滑动菜单" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加多个图片" />
+
+        <Button
+            android:id="@+id/segmented"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多选一" />
+
+        <Button
+            android:id="@+id/photoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="照片放大缩小" />
+
+        <Button
+            android:id="@+id/http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="httpTest" />
+
+        <Button
+            android:id="@+id/backAnim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="backAnim" />
+    </LinearLayout>
+
+</ScrollView>
